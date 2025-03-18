@@ -29,10 +29,12 @@
        01  idx-out         pic     99.
        01  idx-in          pic     999     value 0.
 
+      * Variables for search
        01  imax             pic     999     value 0.
        01  imin             pic     999     value 0.
        01  imid             pic     999     value 0.
 
+      * Variables used in sorting
        01  temp.
            05  temp-idx    pic 99.
            05  temp-pname  pic x(38).
